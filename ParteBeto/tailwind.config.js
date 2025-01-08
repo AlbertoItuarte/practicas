@@ -9,7 +9,14 @@ export default {
     "./layouts/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "359px",
+        sm: "640px",
+        laptop: "1024px",
+        desktop: "1280px",
+      },
+    },
   },
   plugins: [],
 };

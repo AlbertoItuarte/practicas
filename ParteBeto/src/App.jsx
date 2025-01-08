@@ -1,7 +1,13 @@
 import Cards from "./components/cards.jsx";
+import Features from "./components/Features.jsx";
 
 const App = () => {
-  return <Cards />;
+  return (
+    <div>
+      <Features />
+      <Cards />
+    </div>
+  );
 };
 
 export default App;
