@@ -13,8 +13,10 @@ export default {
       screens: {
         xs: "359px",
         sm: "640px",
-        laptop: "1024px",
-        desktop: "1280px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
     },
   },
