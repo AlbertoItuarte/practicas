@@ -44,7 +44,7 @@ const Comentarios = () => {
 
   return (
     <div className="pt-10 pb-20">
-      <div className="px-20">
+      <div className="xs:pl-20 xs:pr-6 sm:px-20 ">
         <div className="flex w-full justify-between items-center pb-6">
           <p className="text-[#3A9676] text-xl">Our clients</p>
         </div>
@@ -53,7 +53,7 @@ const Comentarios = () => {
           <h2 className="font-bold xs:text-3xl xs:self-center md:self-start md:text-4xl lg:text-5xl md:w-8/12 xl:w-5/12">
             What our customers say about collaborating with us
           </h2>
-          <div className="flex space-x-8 justify-end font-semibold items-end xs:pt-6 md:pt-0">
+          <div className="flex xs:space-x-3 xs:pr-6 md:space-x-8 justify-end font-semibold items-end xs:pt-6 md:pt-0">
             <div className="flex space-x-2 items-center">
               <img
                 src="flechaIzquierda.png"
@@ -84,7 +84,7 @@ const Comentarios = () => {
             </div>
           </div>
         </div>
-        <div className="w-full bg-gray-50 rounded-xl p-10">
+        <div className="w-full bg-gray-50 xs:-ml-6 xs:-mr-6 sm:mr-0 sm:ml-0 rounded-xl p-10">
           <div className="xs:wfull sm:w-8/12">
             <p className="2xl:text-6xl xl:text-5xl md:text-3xl xs:text-2xl font-semibold">
               {comentarios[currentIndex].texto}
