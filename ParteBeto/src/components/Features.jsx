@@ -10,7 +10,8 @@ const Features = () => {
         </div>
         <div className="flex xs:flex-col xs:items-center xs:pt-14 md:space-x-10 md:flex-row w-full lg:pt-4">
           <div className="xs:w-8/12 md:w-6/12 ">
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
+              {/* Hover */}
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col w-full pl-3 ">
                 <h3 className="font-bold text-3xl ">
@@ -22,7 +23,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col pl-3 ">
                 <h3 className="font-bold text-3xl ">
@@ -34,7 +35,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col pl-3 ">
                 <h3 className="font-bold text-3xl sm:self-start">
@@ -48,7 +49,7 @@ const Features = () => {
             </div>
           </div>
           <div className=" xs:w-8/12 md:w-6/12">
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col pl-3 ">
                 <h3 className="font-bold text-3xl w-full md:w-7/12 lg:w-full 2xl:w-7/12 sm:self-start">
@@ -60,7 +61,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col pl-3 ">
                 <h3 className="font-bold text-3xl ">
@@ -72,7 +73,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row hover:scale-105 cursor-pointer">
               <div className="border border-[#3A9676] mt-2 h-8"></div>
               <div className="flex flex-col pl-3 ">
                 <h3 className="font-bold text-3xl pl-3 sm:self-start">
